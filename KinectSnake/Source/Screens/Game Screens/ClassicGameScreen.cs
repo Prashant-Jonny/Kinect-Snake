@@ -76,7 +76,6 @@ namespace KinectSnake.Screens
                 this.rabbitPercentage = 0.4f;
             }
 
-
         }
 
 
@@ -91,9 +90,10 @@ namespace KinectSnake.Screens
             effectSprites = new List<EffectSprite>();
             //for (int i = 0; i < Main.backgroundLoops.Count; i++)
             //Main.backgroundLoops[i].Play();
-            scoreText = new IconText("", Main.sprites["points"], new Vector2(200, 200), new Vector2(Main.windowSize.X / 6.0f, 100.0f), 0.5f, Color.Goldenrod, TextAlignment.Right);
 
-            snake = new Snake(grid, new Vector2(960, 800),  this.snakeSpeed, this.startSnakeLength);
+            scoreText = new IconText("", Main.sprites["points"], new Vector2(Main.windowSize.X / 10.0f, Main.windowSize.X / 10.0f), new Vector2(Main.windowSize.X / 6.0f, Main.windowSize.X / 12.0f), 0.5f, Color.Goldenrod, TextAlignment.Right);
+
+            snake = new Snake(grid, Main.windowSize * 0.5f,  this.snakeSpeed, this.startSnakeLength);
             landscape.AddComponent(snake);
 
 

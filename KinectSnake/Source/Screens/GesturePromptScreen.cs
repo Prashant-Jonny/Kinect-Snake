@@ -38,8 +38,8 @@ namespace KinectSnake.Screens
         public GestureTest test;
         public GestureHandler callback;
 
-        public GestureOptionEntry(string text, Texture2D icon, Vector2 position, float scale, Color color, TextAlignment alignment, GestureTest test, GestureHandler callback)
-            : base(text, icon, new Vector2(200, 200), position, scale, color, alignment)
+        public GestureOptionEntry(string text, Texture2D icon, Vector2 iconSize, Vector2 position, float scale, Color color, TextAlignment alignment, GestureTest test, GestureHandler callback)
+            : base(text, icon, iconSize, position, scale, color, alignment)
         {
             unlockedColor = color;
             this.callback = callback;
@@ -61,9 +61,11 @@ namespace KinectSnake.Screens
         #region Fields
         
         Text title;
+        string titleString;
         Texture2D gradientTexture;
         protected List<GestureOptionEntry> gestureOptions;
         Rectangle backgroundRectangle;
+        Color titleColor;
         Color textColor = Color.White;
         TextAlignment textAlignment = TextAlignment.Right;
         float backgroundPanelWidth = 0;
@@ -83,14 +85,35 @@ namespace KinectSnake.Screens
         public GesturePromptScreen(string title, Color titleColor)
         {
             this.KinectDependencies.Add(KinectDependency.Skeleton);
-            this.title = new Text(title, new Vector2(Main.windowSize.X * 0.5f,100), 2.0f, titleColor );
             this.gestureOptions = new List<GestureOptionEntry>();
             IsPopup = true;
 
             TransitionOnTime = TimeSpan.FromSeconds(0.2);
             TransitionOffTime = TimeSpan.FromSeconds(0.2);
+            this.titleColor = titleColor;
+            this.titleString = title;
+            float scale = (Main.windowSize.X / 1920.0f) * 2.0f;
+            padding = (Main.windowSize.Y / 1200.0f) * padding;
+            this.title = new Text(titleString, new Vector2(Main.windowSize.X * 0.5f, 100), scale, titleColor);
         }
 
+        /// <summary>
+        /// Loads graphics content for this screen. This uses the shared ContentManager
+        /// provided by the Game class, so the content will remain loaded forever.
+        /// Whenever a subsequent MessageBoxScreen tries to load this same content,
+        /// it will just get back another reference to the already loaded data.
+        /// </summary>
+        public override void Activate(InputState input)
+        {
+
+            base.Activate(input);
+            foreach (GestureOptionEntry option in gestureOptions)
+                option.Activate(input);
+
+            ContentManager content = Main.content;
+            gradientTexture = content.Load<Texture2D>("Content\\Images\\gradient");
+
+        }
 
         public void AddGestureOption(string actionString, GestureTest test, GestureHandler callback, Texture2D icon, float scale = 1.0f)
         {
@@ -99,7 +122,10 @@ namespace KinectSnake.Screens
                 pos = new Vector2(Main.windowSize.X * 0.5f, title.Position.Y + title.Size.Y / 2 + padding*3);
             else
                 pos = new Vector2(Main.windowSize.X * 0.5f, gestureOptions[gestureOptions.Count - 1].Position.Y + gestureOptions[gestureOptions.Count - 1].Size.Y / 2 + padding);
-            GestureOptionEntry newEntry = new GestureOptionEntry(actionString,icon, pos, scale, textColor,textAlignment, test, callback);
+            Vector2 screenDimensions = new Vector2(ScreenManager.GraphicsDevice.Viewport.Width, ScreenManager.GraphicsDevice.Viewport.Height);
+            float newScale = (screenDimensions.X / 1920.0f) * scale;
+            Vector2 iconSize = new Vector2(screenDimensions.X / 9.0f, screenDimensions.X / 9.0f);
+            GestureOptionEntry newEntry = new GestureOptionEntry(actionString, icon,iconSize, pos, newScale, textColor, textAlignment, test, callback);
             backgroundPanelWidth = Math.Max(newEntry.Size.X,backgroundPanelWidth);
             gestureOptions.Add(newEntry);
             backgroundPanelDirty = true;
@@ -127,25 +153,6 @@ namespace KinectSnake.Screens
             base.Update(gameTime, otherScreenHasFocus, coveredByOtherScreen);
         }
         
-        /// <summary>
-        /// Loads graphics content for this screen. This uses the shared ContentManager
-        /// provided by the Game class, so the content will remain loaded forever.
-        /// Whenever a subsequent MessageBoxScreen tries to load this same content,
-        /// it will just get back another reference to the already loaded data.
-        /// </summary>
-        public override void Activate(InputState input)
-        {
-
-            base.Activate(input);
-            foreach (GestureOptionEntry option in gestureOptions)
-                option.Activate(input);
-
-
-
-            ContentManager content = Main.content;
-            gradientTexture = content.Load<Texture2D>("Content\\Images\\gradient");
-
-        }
 
         #endregion
 

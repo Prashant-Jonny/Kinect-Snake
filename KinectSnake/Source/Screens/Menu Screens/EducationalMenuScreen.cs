@@ -31,13 +31,17 @@ namespace KinectSnake.Screens
         public EducationalMenuScreen()
             : base("Educational Modes",Color.LightGreen)
         {
+        }
+
+        public override void Activate(InputState input)
+        {
+            base.Activate(input);
             AddMenuEntry("Quadrant", QuadrantEntrySelected);
             AddMenuEntry("Back", BackEntrySelected);
             SetBackground(new DrawableAsset<Texture2D>(Main.windowSize * 0.5f, new Vector2(0, -1), Main.windowSize, Main.sprites["menuBack"]));
-            SetHandCursor(Main.sprites["handCursor"], new Vector2(200, 200));
-            SetSelectionSprite(Main.animatedSprites["load"], new Vector2(400, 400));
+            SetHandCursor(Main.sprites["handCursor"]);
+            SetSelectionSprite(Main.animatedSprites["load"]);
         }
-
 
         #endregion
 

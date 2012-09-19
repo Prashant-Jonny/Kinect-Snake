@@ -138,6 +138,7 @@ namespace KinectSnake
         public Mouse(Grid gridPtr, Vector2 position, int speed)
             : base(gridPtr,position, new Vector2(0, -1), new Vector2(80, 80) )
         {
+            this.Size *= Main.windowSize.X / 1920.0f;
             this.gridColor = Color.Aqua;
             this.animated = true;
             this.SetMaps(Main.animatedSprites["mouse"],Main.animatedSprites["mouse_SPEC"], Main.animatedSprites["mouse_NRM"]);
@@ -183,6 +184,7 @@ namespace KinectSnake
         public Rabbit(Grid gridPtr, Vector2 position, int speed)
             : base( gridPtr,position, Vector2.Zero, new Vector2(125, 125))
         {
+            this.Size *= Main.windowSize.X / 1920.0f;
             this.gridColor = Color.DarkOrange;
             this.animated = true;
 
@@ -274,6 +276,20 @@ namespace KinectSnake
         public BodyPart(Grid gridPtr, Vector2 position, Vector2 direction, Texture2D sprite, Texture2D specular, Texture2D normal, int speed, BodyPart parent = null)
             : base(gridPtr,position, direction, new Vector2(80, 80))
         {
+            Vector2 newSize = this.Size * Main.windowSize.X / 1920.0f;
+            Vector2[] possibleSizes = new Vector2[4]{new Vector2(10,10), new Vector2(20,20), new Vector2(40,40), new Vector2(80,80)};
+            int sizeIndex = 0;
+            float lowestDist = 100000000;
+            for (int i = 0; i < 4; i ++)
+            {
+                float dist = Vector2.Distance(newSize,possibleSizes[i]);
+                if (dist < lowestDist)
+                {
+                    lowestDist = dist;
+                    sizeIndex = i;
+                }
+            }
+            this.Size = possibleSizes[sizeIndex];
             this.gridColor = Color.DarkMagenta;
             this.speed = speed;
             this.parent = parent;

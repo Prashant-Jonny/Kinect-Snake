@@ -36,13 +36,7 @@ namespace KinectSnake.Screens
             KinectDependencies.Add(KinectDependency.Skeleton);
             gameType = currentGameType;
             gameDiff = currentDifficulty;
-            AddMenuEntry("Resume Game", ResumeGame);
-            AddMenuEntry("Restart Game", RestartGame);
-            AddMenuEntry("To Main Menu", CheckMainMenu);
-            SetHandCursor(Main.sprites["handCursor"], new Vector2(200, 200));
-            SetSelectionSprite(Main.animatedSprites["load"], new Vector2(400, 400));
         }
-
 
         #endregion
 
@@ -70,6 +64,11 @@ namespace KinectSnake.Screens
                   input.Kinect.EnableGestureTest( GestureTests.Resume,Resume);
             }
             base.Activate(input);
+            AddMenuEntry("Resume Game", ResumeGame);
+            AddMenuEntry("Restart Game", RestartGame);
+            AddMenuEntry("To Main Menu", CheckMainMenu);
+            SetHandCursor(Main.sprites["handCursor"]);
+            SetSelectionSprite(Main.animatedSprites["load"]);
         }
 
         public override void Deactivate(InputState input)

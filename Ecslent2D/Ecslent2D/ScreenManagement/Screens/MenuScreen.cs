@@ -56,6 +56,7 @@ namespace Ecslent2D.ScreenManagement.Screens
         protected Color textColor, titleColor;
         protected float padding = 100f;
         protected int entryOver = -1;
+        protected string menuTitle;
         protected DrawableAsset<Texture2D> background;
 
 
@@ -89,7 +90,7 @@ namespace Ecslent2D.ScreenManagement.Screens
         public MenuScreen(string menuTitle, Color titleColor)
             : base()
         {
-            title = new Text(menuTitle, new Vector2(100,100), 2.0f, titleColor );
+            this.menuTitle = menuTitle;
             TransitionOnTime = TimeSpan.FromSeconds(0.5);
             TransitionOffTime = TimeSpan.FromSeconds(0.5);
             entries = new List<MenuEntry>();
@@ -108,7 +109,9 @@ namespace Ecslent2D.ScreenManagement.Screens
         public override void Activate(InputState input)
         {
             Vector2 screenDimensions = new Vector2(ScreenManager.GraphicsDevice.Viewport.Width, ScreenManager.GraphicsDevice.Viewport.Height);
-            title.Position = new Vector2(screenDimensions.X * 0.5f, screenDimensions.Y * 0.15f);
+            float scale = (screenDimensions.X / 1920.0f) * 2.0f;
+            padding = (screenDimensions.Y / 1200.0f) * padding;
+            title = new Text(menuTitle, new Vector2(screenDimensions.X * 0.5f, screenDimensions.Y * 0.15f), scale, titleColor);
             base.Activate(input);
         }
         #endregion
@@ -342,14 +345,16 @@ namespace Ecslent2D.ScreenManagement.Screens
             background = back;
         }
 
-        public void SetHandCursor(Texture2D cursor, Vector2 size)
+        public void SetHandCursor(Texture2D cursor)
         {
-            handCursor = new DrawableAsset<Texture2D>(Vector2.Zero, new Vector2(0, -1), size, cursor);
+            Vector2 screenDimensions = new Vector2(ScreenManager.GraphicsDevice.Viewport.Width, ScreenManager.GraphicsDevice.Viewport.Height);
+            handCursor = new DrawableAsset<Texture2D>(Vector2.Zero, new Vector2(0, -1), new Vector2(screenDimensions.X / 8.0f, screenDimensions.X / 8.0f), cursor);
         }
 
-        public void SetSelectionSprite(Animation2D selectionSprite, Vector2 size)
+        public void SetSelectionSprite(Animation2D selectionSprite)
         {
-            selectionLoader = new DrawableAsset<Animation2D>(Vector2.Zero, new Vector2(0, -1), size, selectionSprite);
+            Vector2 screenDimensions = new Vector2(ScreenManager.GraphicsDevice.Viewport.Width, ScreenManager.GraphicsDevice.Viewport.Height);
+            selectionLoader = new DrawableAsset<Animation2D>(Vector2.Zero, new Vector2(0, -1), new Vector2(screenDimensions.X / 4.0f, screenDimensions.X / 4.0f), selectionSprite);
         }
 
         protected virtual void AddMenuEntry(string text, InputHandler callback, bool lockEntry = false, float scale = 1.0f)
@@ -363,7 +368,9 @@ namespace Ecslent2D.ScreenManagement.Screens
                 pos = new Vector2(0, title.Position.Y + title.Size.Y / 2 + padding);
             else
                 pos = new Vector2(0, entries[entries.Count - 1].Position.Y + entries[entries.Count - 1].Size.Y / 2 + padding);
-            MenuEntry newEntry = new MenuEntry(text, pos, scale, textColor, callback);
+            Vector2 screenDimensions = new Vector2(ScreenManager.GraphicsDevice.Viewport.Width, ScreenManager.GraphicsDevice.Viewport.Height);
+            float newScale = (screenDimensions.X / 1920.0f) * scale;
+            MenuEntry newEntry = new MenuEntry(text, pos, newScale, textColor, callback);
             if (lockEntry)
                 newEntry.Lock();
 

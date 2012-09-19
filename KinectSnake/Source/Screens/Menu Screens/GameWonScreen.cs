@@ -38,17 +38,21 @@ namespace KinectSnake.Screens
             this.replayScreen = replayScreen;
             this.nextScreen = nextScreen;
 
-            if (nextScreen != null )
+
+        }
+
+
+        public override void Activate(InputState input)
+        {
+            base.Activate(input);
+            if (nextScreen != null)
                 AddMenuEntry("Next Level", ToNextLevel);
             AddMenuEntry("Replay", ReplayGame);
             AddMenuEntry("To Main Menu", ToMainMenu);
             AddMenuEntry("Quit Game", CheckQuitGame);
-
-            SetHandCursor(Main.sprites["handCursor"], new Vector2(200, 200));
-            SetSelectionSprite(Main.animatedSprites["load"], new Vector2(400, 400));
+            SetHandCursor(Main.sprites["handCursor"]);
+            SetSelectionSprite(Main.animatedSprites["load"]);
         }
-
-
         #endregion
 
         #region Handle Input

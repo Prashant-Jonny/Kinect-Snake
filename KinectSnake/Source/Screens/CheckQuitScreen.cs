@@ -49,12 +49,15 @@ namespace KinectSnake.Screens
         public CheckQuitScreen()
             :base("Do you want to quit?", Color.Red)
         {
-            Vector2 iconSize = new Vector2(175, 175);
-            AddGestureOption(" - Raise Arms to Confirm", GestureTests.TouchdownTest, OnAccept, Main.sprites["confirmGesture"]);
-            AddGestureOption(" - Cross Arms to Cancel", GestureTests.ArmCrossTest, OnCancel, Main.sprites["cancelGesture"]);
             IsPopup = true;
         }
 
+        public override void Activate(InputState input)
+        {
+            AddGestureOption(" - Raise Arms to Confirm", GestureTests.TouchdownTest, OnAccept, Main.sprites["confirmGesture"]);
+            AddGestureOption(" - Cross Arms to Cancel", GestureTests.ArmCrossTest, OnCancel, Main.sprites["cancelGesture"]);
+            base.Activate(input);
+        }
         #endregion
 
         #region Handle Input
@@ -73,8 +76,6 @@ namespace KinectSnake.Screens
         }
 
         #endregion
-
-        #region Handle Input
 
 
         /// <summary>
@@ -97,6 +98,5 @@ namespace KinectSnake.Screens
         }
 
 
-        #endregion
     }
 }

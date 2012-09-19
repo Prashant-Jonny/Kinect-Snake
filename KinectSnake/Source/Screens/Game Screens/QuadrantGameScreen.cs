@@ -117,20 +117,21 @@ namespace KinectSnake.Screens
             effectSprites = new List<EffectSprite>();
             //for (int i = 0; i < Main.backgroundLoops.Count; i++)
             //Main.backgroundLoops[i].Play();
-            scoreText = new IconText("", Main.sprites["points"],new Vector2(100,100), new Vector2(Main.windowSize.X / 6.0f, 100.0f), 0.5f, Color.Goldenrod, TextAlignment.Right);
+            scoreText = new IconText("", Main.sprites["points"], new Vector2(Main.windowSize.X / 15.0f, Main.windowSize.X / 15.0f), new Vector2(Main.windowSize.X / 6.0f, 100.0f), 0.5f, Color.Goldenrod, TextAlignment.Right);
 
             quadrantTarget = Main.numGenerator.Next() % 4 + 1;
             if (currentExcercise == QuadrantExcercises.PolarityOne || currentExcercise == QuadrantExcercises.PolarityTwo)
-                quadrantCommand = new IconText(Utilities.QuadrantToPolarity(quadrantTarget), Main.sprites["quadrant"], new Vector2(100, 100), new Vector2(Main.windowSize.X / 3.0f, 100), 1.0f, Color.Azure, TextAlignment.Right, TextEffect.Bubble);
+                quadrantCommand = new IconText(Utilities.QuadrantToPolarity(quadrantTarget), Main.sprites["quadrant"], new Vector2(Main.windowSize.X / 10.0f, Main.windowSize.X / 10.0f), new Vector2(Main.windowSize.X / 3.0f, 100), 1.0f, Color.Azure, TextAlignment.Right, TextEffect.Bubble);
                
             else
-                quadrantCommand = new IconText(quadrantTarget.ToString(), Main.sprites["quadrant"], new Vector2(100, 100), new Vector2(Main.windowSize.X / 3.0f, 100), 1.0f, Color.Azure, TextAlignment.Right, TextEffect.Bubble);
-            resultText = new Text("", new Vector2(Main.windowSize.X / 2.0f, 100), 1.0f, Color.Red, TextEffect.Fade);
+                quadrantCommand = new IconText(quadrantTarget.ToString(), Main.sprites["quadrant"], new Vector2(Main.windowSize.X / 10.0f, Main.windowSize.X / 10.0f), new Vector2(Main.windowSize.X / 3.0f, 100), 1.0f, Color.Azure, TextAlignment.Right, TextEffect.Bubble);
+            resultText = new Text("", new Vector2(Main.windowSize.X / 2.0f, Main.windowSize.X / 10.0f), Main.windowSize.X / 1920.0f, Color.Red, TextEffect.Fade);
 
             this.lives = 5;
             lifeSprites = new List<DrawableAsset<Texture2D>>();
+            Vector2 lifeSpriteSize = new Vector2(Main.windowSize.X / 15.0f, Main.windowSize.X / 15.0f);
             for (int i = 0; i < lives; i++)
-                lifeSprites.Add(new DrawableAsset<Texture2D>(new Vector2(Main.windowSize.X - (i + 1) * 80, 80), new Vector2(0, -1), new Vector2(80, 80), Main.sprites["snakeBody"]));
+                lifeSprites.Add(new DrawableAsset<Texture2D>(new Vector2(Main.windowSize.X - (i + 1) * lifeSpriteSize.X, lifeSpriteSize.Y), new Vector2(0, -1), lifeSpriteSize, Main.sprites["snakeBody"]));
 
             landscape.AddStain(new CoordinateSystem(coordinateType));
             snake = new Snake(grid, Main.windowSize * 0.5f,  this.snakeSpeed, this.startSnakeLength);
@@ -234,6 +235,7 @@ namespace KinectSnake.Screens
         public void PlaceAnimal(int quadrant)
         {
             Rectangle quad = Utilities.QuadrantToRect(quadrant);
+
             Rectangle placementRect = new Rectangle(quad.Left, quad.Top, 160, 160);
             Vector2 dirToRect = new Vector2(placementRect.Center.X - this.snake.head.Position.X, placementRect.Center.Y - this.snake.head.Position.Y);
             while (!grid.GridsEmpty(placementRect) ||
@@ -264,7 +266,7 @@ namespace KinectSnake.Screens
                         t.String = str;
                 }
 
-                Text newText = new Text(str, animals[animals.Count - 1].Position, 1.0f, Color.Cyan, TextEffect.None);
+                Text newText = new Text(str, animals[animals.Count - 1].Position, Main.windowSize.X / 1920.0f , Color.Cyan, TextEffect.None);
                 newText.SetAlternateColor(Color.DarkCyan);
                 animalText.Add(newText);
 

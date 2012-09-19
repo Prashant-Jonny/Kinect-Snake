@@ -32,15 +32,21 @@ namespace KinectSnake.Screens
         public OptionsScreen()
             : base("Options", Color.Goldenrod)
         {
+
+            SetBackground(new DrawableAsset<Texture2D>(Main.windowSize * 0.5f, new Vector2(0, -1), Main.windowSize, Main.sprites["menuBack"]));
+        }
+
+        public override void Activate(InputState input)
+        {
+            base.Activate(input);
             AddMenuEntry("Calibrate Kinect", LaunchCalibrationScreen);
             AddMenuEntry("Change Dominant Side", LaunchDominantHandScreen);
             AddMenuEntry("Controls", LaunchControlScreen);
             AddMenuEntry("Back", LaunchMainMenu);
-
-            SetBackground(new DrawableAsset<Texture2D>(Main.windowSize * 0.5f, new Vector2(0, -1), Main.windowSize, Main.sprites["menuBack"]));
-            SetHandCursor(Main.sprites["handCursor"], new Vector2(200, 200));
-            SetSelectionSprite(Main.animatedSprites["load"], new Vector2(400, 400));
+            SetHandCursor(Main.sprites["handCursor"]);
+            SetSelectionSprite(Main.animatedSprites["load"]);
         }
+
         #endregion
 
         #region Handle Input
@@ -72,7 +78,7 @@ namespace KinectSnake.Screens
 
                 welcome.Left += (o, p) =>
                 {
-                    InputState.DominantSide = DominantSide.Right;
+                    InputState.DominantSide = DominantSide.Left;
                 };
                 ScreenManager.AddScreen(welcome, PlayerIndex.One);
             }

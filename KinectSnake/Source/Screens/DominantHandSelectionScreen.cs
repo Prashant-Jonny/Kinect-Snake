@@ -53,24 +53,25 @@ namespace KinectSnake.Screens
             : base("Select Hand Preference", Color.Red)
         {
             Vector2 iconSize = new Vector2(175, 175);
-            AddGestureOption(" - Hold Up Right Arm to Select Right", GestureTests.RightArmUp, OnRight, Main.sprites["confirmGesture"]);
-            AddGestureOption(" - Hold Up Left Arm to Left Right", GestureTests.LeftArmUp, OnLeft, Main.sprites["cancelGesture"]);
             IsPopup = true;
-            help = new Text("", gestureOptions[gestureOptions.Count - 1].Position + new Vector2(0, padding * 3),2.0f,Color.Goldenrod);
-            armIndicator = new Text("", Main.windowSize * 0.5f, 3.0f, Color.Lime);
         }
 
         #endregion
 
         public override void Activate(InputState input)
         {
-            base.Activate(input);
-            selectionLoader = new DrawableAsset<Animation2D>(Main.windowSize * 0.5f, new Vector2(0, -1), new Vector2(500, 500), Main.content.Load<Animation2D>("Content\\Images\\load"));
+            AddGestureOption(" - Hold Up Right Arm to Select Right", GestureTests.RightArmUp, OnRight, Main.sprites["confirmGesture"]);
+            AddGestureOption(" - Hold Up Left Arm to Left Right", GestureTests.LeftArmUp, OnLeft, Main.sprites["cancelGesture"]);
+            help = new Text("", gestureOptions[gestureOptions.Count - 1].Position + new Vector2(0, padding * 3), (Main.windowSize.X / 1920.0f) * 2.0f, Color.Goldenrod);
+            armIndicator = new Text("", Main.windowSize * 0.5f, (Main.windowSize.X / 1920.0f) * 3.0f, Color.Lime);
+            Vector2 selectionSize = new Vector2(Main.windowSize.X / 4.0f, Main.windowSize.X / 4.0f);
+            selectionLoader = new DrawableAsset<Animation2D>(Main.windowSize * 0.5f, new Vector2(0, -1), selectionSize, Main.content.Load<Animation2D>("Content\\Images\\load"));
             if (input.Kinect.IsEnabled())
             {
                 input.Kinect.EnableGestureTest(GestureTests.RightArmDown, OnRightDown);
                 input.Kinect.EnableGestureTest(GestureTests.LeftArmDown, OnLeftDown);
             }
+            base.Activate(input);
         }
         public override void Deactivate(InputState input)
         {

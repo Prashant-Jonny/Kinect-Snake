@@ -41,11 +41,7 @@ namespace KinectSnake.Screens
         public ControlScreen()
             :base("Controls",Color.Goldenrod)
         {
-            AddMenuEntry("Done", Advance);
             this.controls = new List<IconText>();
-            SetBackground(new DrawableAsset<Texture2D>(Main.windowSize * 0.5f, new Vector2(0, -1), Main.windowSize, Main.sprites["menuBack"]));
-            SetHandCursor(Main.sprites["handCursor"], new Vector2(200, 200));
-            SetSelectionSprite(Main.animatedSprites["load"], new Vector2(400, 400));
             KinectDependencies.Add(KinectDependency.Skeleton);
         }
 
@@ -59,14 +55,19 @@ namespace KinectSnake.Screens
             Texture2D[] controlIcons = new Texture2D[6] { Main.sprites["upGesture"],Main.sprites["downGesture"],Main.sprites["leftGesture"],
                 Main.sprites["rightGesture"],Main.sprites["pauseGesture"],Main.sprites["playGesture"]};
             string[] controlTexts = new string[6] {" - UP", " - DOWN"," - LEFT"," - RIGHT"," - PAUSE"," - PLAY"};
+            Vector2 size = new Vector2(Main.windowSize.X / 8.0f, Main.windowSize.X / 8.0f);
             for (int i = 0; i < controlTexts.Length; i ++)
             {
                 if (i % 2 == 0)
-                    this.controls.Add(new IconText(controlTexts[i], controlIcons[i], new Vector2(200, 200), new Vector2(Main.windowSize.X * 0.33f, Main.windowSize.Y * 0.2f * (i / 2 + 2)), 1.0f, Color.White, TextAlignment.Right));
+                    this.controls.Add(new IconText(controlTexts[i], controlIcons[i], size, new Vector2(Main.windowSize.X * 0.33f, Main.windowSize.Y * 0.2f * (i / 2 + 2)), 1.0f, Color.White, TextAlignment.Right));
                 else
-                    this.controls.Add(new IconText(controlTexts[i], controlIcons[i], new Vector2(200, 200), new Vector2(Main.windowSize.X * 0.66f, Main.windowSize.Y * 0.2f * (i / 2 + 2)), 1.0f, Color.White, TextAlignment.Right));
+                    this.controls.Add(new IconText(controlTexts[i], controlIcons[i], size, new Vector2(Main.windowSize.X * 0.66f, Main.windowSize.Y * 0.2f * (i / 2 + 2)), 1.0f, Color.White, TextAlignment.Right));
             }
- 	        base.Activate(input);
+            base.Activate(input);
+            AddMenuEntry("Done", Advance);
+            SetBackground(new DrawableAsset<Texture2D>(Main.windowSize * 0.5f, new Vector2(0, -1), Main.windowSize, Main.sprites["menuBack"]));
+            SetHandCursor(Main.sprites["handCursor"]);
+            SetSelectionSprite(Main.animatedSprites["load"]);
         }
 
         #endregion

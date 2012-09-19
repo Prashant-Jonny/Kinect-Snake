@@ -33,6 +33,12 @@ namespace KinectSnake.Screens
         public ClassicDifficultySelectionScreen()
             : base("Select Difficulty",Color.Coral)
         {
+        }
+
+
+        public override void Activate(InputState input)
+        {
+            base.Activate(input);
             AddMenuEntry("Very Easy", MegaWeenieSelected, false);
             AddMenuEntry("Easy", PansySelected, false);
             AddMenuEntry("Normal", NormalSelected, false);
@@ -40,11 +46,9 @@ namespace KinectSnake.Screens
             AddMenuEntry("Hardest ", SuperBadassSelected, false);
             AddMenuEntry("Back ", ToMainMenu, false);
             SetBackground(new DrawableAsset<Texture2D>(Main.windowSize * 0.5f, new Vector2(0, -1), Main.windowSize, Main.sprites["menuBack"]));
-            SetHandCursor(Main.sprites["handCursor"], new Vector2(200, 200));
-            SetSelectionSprite(Main.animatedSprites["load"], new Vector2(400, 400));
+            SetHandCursor(Main.sprites["handCursor"]);
+            SetSelectionSprite(Main.animatedSprites["load"]);
         }
-
-
         #endregion
 
         #region Handle Input

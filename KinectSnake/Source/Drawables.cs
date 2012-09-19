@@ -81,7 +81,7 @@ namespace KinectSnake
             : base(startPos, Vector2.Zero, new Vector2(500, 500))
         {
             pointText = new List<Text>();
-            
+            this.Size *= Main.windowSize.X / 1920.0f;
             pointDirections = new Vector2[4]{new Vector2(0,-1),new Vector2(0,1),new Vector2(-1,0),new Vector2(1,0)};
             this.speed = 1.0f;
             for (int i = 0; i < 4; i++)

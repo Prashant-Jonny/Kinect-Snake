@@ -34,15 +34,18 @@ namespace KinectSnake.Screens
         public CalibrationMenuScreen()
             : base("Calibrate Kinect", Color.RoyalBlue)
         {
-            AddMenuEntry("Done", Advance);
             instructions = new Text[2];
             instructions[0] = new Text("Move closer/farther away from the screen", new Vector2(Main.windowSize.X * 0.5f, Main.windowSize.Y - 300),1.0f, Color.Gold);
             instructions[1] = new Text("until your head approaches the top of the frame", new Vector2(Main.windowSize.X * 0.5f, Main.windowSize.Y - 200), 1.0f, Color.Gold);
             KinectDependencies.Add(KinectDependency.Color);
-            SetHandCursor(Main.sprites["handCursor"], new Vector2(200, 200));
-            SetSelectionSprite(Main.animatedSprites["load"], new Vector2(400, 400));
         }
-
+        public override void Activate(InputState input)
+        {
+            base.Activate(input);
+            AddMenuEntry("Done", Advance);
+            SetHandCursor(Main.sprites["handCursor"]);
+            SetSelectionSprite(Main.animatedSprites["load"]);
+        }
 
         #endregion
 

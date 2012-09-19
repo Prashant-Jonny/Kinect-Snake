@@ -26,6 +26,7 @@ namespace KinectSnake.Screens
     {
         Text finalScoreText;
         Screen replayScreen;
+        int previousScore;
         #region Initialization
 
 
@@ -36,18 +37,22 @@ namespace KinectSnake.Screens
             : base("Game Over",Color.Red)
         {
             IsPopup = true;
+            this.replayScreen = replayScreen;
+            this.previousScore = previousScore;
+            
+        }
+
+        public override void Activate(InputState input)
+        {
+            base.Activate(input);
             AddMenuEntry("Replay", ReplayGame);
             AddMenuEntry("To Main Menu", ToMainMenu);
             AddMenuEntry("Quit Game", CheckQuitGame);
-            this.replayScreen = replayScreen;
-
+            SetHandCursor(Main.sprites["handCursor"]);
+            SetSelectionSprite(Main.animatedSprites["load"]);
             Vector2 finalScorePos = new Vector2(Main.windowSize.X / 2, Entries[Entries.Count - 1].boundry.Bottom + TextSettings.CurrentFont.MeasureString("Final Score: " + previousScore.ToString()).Y / 2 * 2.0f);
             finalScoreText = new Text("Final Score: " + previousScore.ToString(), finalScorePos, 1.0f, Color.Goldenrod);
-            
-            SetHandCursor(Main.sprites["handCursor"], new Vector2(200, 200));
-            SetSelectionSprite(Main.animatedSprites["load"], new Vector2(400, 400));
         }
-
 
 
         #endregion
