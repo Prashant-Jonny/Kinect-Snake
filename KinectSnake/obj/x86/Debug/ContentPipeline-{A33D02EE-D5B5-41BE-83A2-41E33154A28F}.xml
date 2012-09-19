@@ -7,8 +7,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ecsllab\Downloads\KinectSnake (2)\KinectSnake\KinectSnake\KinectSnake\bin\x86\Debug\Content\Images\filledGrid.xnb</Output>
-      <Time>2012-08-22T13:43:44-07:00</Time>
+      <Output>C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\KinectSnake\bin\x86\Debug\Content\Images\filledGrid.xnb</Output>
+      <Time>2012-09-19T10:21:11.4244343-07:00</Time>
     </Item>
     <Item>
       <Source>Images\back.jpg</Source>
@@ -16,8 +16,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ecsllab\Downloads\KinectSnake (2)\KinectSnake\KinectSnake\KinectSnake\bin\x86\Debug\Content\Images\back.xnb</Output>
-      <Time>2012-08-22T13:43:42-07:00</Time>
+      <Output>C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\KinectSnake\bin\x86\Debug\Content\Images\back.xnb</Output>
+      <Time>2012-09-19T10:21:11.3344292-07:00</Time>
     </Item>
     <Item>
       <Source>Images\bloodStainFive.png</Source>
@@ -25,8 +25,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ecsllab\Downloads\KinectSnake (2)\KinectSnake\KinectSnake\KinectSnake\bin\x86\Debug\Content\Images\bloodStainFive.xnb</Output>
-      <Time>2012-08-22T13:43:42-07:00</Time>
+      <Output>C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\KinectSnake\bin\x86\Debug\Content\Images\bloodStainFive.xnb</Output>
+      <Time>2012-09-19T10:21:11.3514301-07:00</Time>
     </Item>
     <Item>
       <Source>Images\bloodStainFour.png</Source>
@@ -34,8 +34,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ecsllab\Downloads\KinectSnake (2)\KinectSnake\KinectSnake\KinectSnake\bin\x86\Debug\Content\Images\bloodStainFour.xnb</Output>
-      <Time>2012-08-22T13:43:42-07:00</Time>
+      <Output>C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\KinectSnake\bin\x86\Debug\Content\Images\bloodStainFour.xnb</Output>
+      <Time>2012-09-19T10:21:11.3534303-07:00</Time>
     </Item>
     <Item>
       <Source>Images\bloodStainOne.png</Source>
@@ -43,8 +43,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ecsllab\Downloads\KinectSnake (2)\KinectSnake\KinectSnake\KinectSnake\bin\x86\Debug\Content\Images\bloodStainOne.xnb</Output>
-      <Time>2012-08-22T13:43:42-07:00</Time>
+      <Output>C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\KinectSnake\bin\x86\Debug\Content\Images\bloodStainOne.xnb</Output>
+      <Time>2012-09-19T10:21:11.3554304-07:00</Time>
     </Item>
     <Item>
       <Source>Images\bloodStainThree.png</Source>
@@ -52,8 +52,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ecsllab\Downloads\KinectSnake (2)\KinectSnake\KinectSnake\KinectSnake\bin\x86\Debug\Content\Images\bloodStainThree.xnb</Output>
-      <Time>2012-08-22T13:43:42-07:00</Time>
+      <Output>C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\KinectSnake\bin\x86\Debug\Content\Images\bloodStainThree.xnb</Output>
+      <Time>2012-09-19T10:21:11.3574305-07:00</Time>
     </Item>
     <Item>
       <Source>Images\bloodStainTwo.png</Source>
@@ -61,8 +61,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ecsllab\Downloads\KinectSnake (2)\KinectSnake\KinectSnake\KinectSnake\bin\x86\Debug\Content\Images\bloodStainTwo.xnb</Output>
-      <Time>2012-08-22T13:43:42-07:00</Time>
+      <Output>C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\KinectSnake\bin\x86\Debug\Content\Images\bloodStainTwo.xnb</Output>
+      <Time>2012-09-19T10:21:11.3594306-07:00</Time>
     </Item>
     <Item>
       <Source>Images\handCursor.png</Source>
@@ -70,8 +70,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ecsllab\Downloads\KinectSnake (2)\KinectSnake\KinectSnake\KinectSnake\bin\x86\Debug\Content\Images\handCursor.xnb</Output>
-      <Time>2012-08-22T13:43:44-07:00</Time>
+      <Output>C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\KinectSnake\bin\x86\Debug\Content\Images\handCursor.xnb</Output>
+      <Time>2012-09-19T10:21:11.4594363-07:00</Time>
     </Item>
     <Item>
       <Source>Images\lightOverlay.png</Source>
@@ -79,8 +79,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ecsllab\Downloads\KinectSnake (2)\KinectSnake\KinectSnake\KinectSnake\bin\x86\Debug\Content\Images\lightOverlay.xnb</Output>
-      <Time>2012-08-22T13:43:44-07:00</Time>
+      <Output>C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\KinectSnake\bin\x86\Debug\Content\Images\lightOverlay.xnb</Output>
+      <Time>2012-09-19T10:21:11.4674368-07:00</Time>
     </Item>
     <Item>
       <Source>Images\playField.jpg</Source>
@@ -88,8 +88,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ecsllab\Downloads\KinectSnake (2)\KinectSnake\KinectSnake\KinectSnake\bin\x86\Debug\Content\Images\playField.xnb</Output>
-      <Time>2012-08-22T13:43:44-07:00</Time>
+      <Output>C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\KinectSnake\bin\x86\Debug\Content\Images\playField.xnb</Output>
+      <Time>2012-09-19T10:21:11.5294403-07:00</Time>
     </Item>
     <Item>
       <Source>Images\singlePixel.png</Source>
@@ -97,8 +97,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ecsllab\Downloads\KinectSnake (2)\KinectSnake\KinectSnake\KinectSnake\bin\x86\Debug\Content\Images\singlePixel.xnb</Output>
-      <Time>2012-08-22T13:43:44-07:00</Time>
+      <Output>C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\KinectSnake\bin\x86\Debug\Content\Images\singlePixel.xnb</Output>
+      <Time>2012-09-19T10:21:11.6274459-07:00</Time>
     </Item>
     <Item>
       <Source>Images\snakeBody.png</Source>
@@ -106,8 +106,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ecsllab\Downloads\KinectSnake (2)\KinectSnake\KinectSnake\KinectSnake\bin\x86\Debug\Content\Images\snakeBody.xnb</Output>
-      <Time>2012-08-22T13:43:44-07:00</Time>
+      <Output>C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\KinectSnake\bin\x86\Debug\Content\Images\snakeBody.xnb</Output>
+      <Time>2012-09-19T10:21:11.628446-07:00</Time>
     </Item>
     <Item>
       <Source>Images\snakeHead.png</Source>
@@ -115,8 +115,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ecsllab\Downloads\KinectSnake (2)\KinectSnake\KinectSnake\KinectSnake\bin\x86\Debug\Content\Images\snakeHead.xnb</Output>
-      <Time>2012-08-22T13:43:44-07:00</Time>
+      <Output>C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\KinectSnake\bin\x86\Debug\Content\Images\snakeHead.xnb</Output>
+      <Time>2012-09-19T10:21:11.6314462-07:00</Time>
     </Item>
     <Item>
       <Source>Images\snakeTail.png</Source>
@@ -124,8 +124,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ecsllab\Downloads\KinectSnake (2)\KinectSnake\KinectSnake\KinectSnake\bin\x86\Debug\Content\Images\snakeTail.xnb</Output>
-      <Time>2012-08-22T13:43:44-07:00</Time>
+      <Output>C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\KinectSnake\bin\x86\Debug\Content\Images\snakeTail.xnb</Output>
+      <Time>2012-09-19T10:21:11.6334463-07:00</Time>
     </Item>
     <Item>
       <Source>Images\cloudFive.png</Source>
@@ -133,8 +133,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ecsllab\Downloads\KinectSnake (2)\KinectSnake\KinectSnake\KinectSnake\bin\x86\Debug\Content\Images\cloudFive.xnb</Output>
-      <Time>2012-08-22T13:43:42-07:00</Time>
+      <Output>C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\KinectSnake\bin\x86\Debug\Content\Images\cloudFive.xnb</Output>
+      <Time>2012-09-19T10:21:11.3644309-07:00</Time>
     </Item>
     <Item>
       <Source>Images\cloudFour.png</Source>
@@ -142,8 +142,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ecsllab\Downloads\KinectSnake (2)\KinectSnake\KinectSnake\KinectSnake\bin\x86\Debug\Content\Images\cloudFour.xnb</Output>
-      <Time>2012-08-22T13:43:42-07:00</Time>
+      <Output>C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\KinectSnake\bin\x86\Debug\Content\Images\cloudFour.xnb</Output>
+      <Time>2012-09-19T10:21:11.366431-07:00</Time>
     </Item>
     <Item>
       <Source>Images\cloudOne.png</Source>
@@ -151,8 +151,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ecsllab\Downloads\KinectSnake (2)\KinectSnake\KinectSnake\KinectSnake\bin\x86\Debug\Content\Images\cloudOne.xnb</Output>
-      <Time>2012-08-22T13:43:42-07:00</Time>
+      <Output>C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\KinectSnake\bin\x86\Debug\Content\Images\cloudOne.xnb</Output>
+      <Time>2012-09-19T10:21:11.3674311-07:00</Time>
     </Item>
     <Item>
       <Source>Images\cloudSix.png</Source>
@@ -160,8 +160,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ecsllab\Downloads\KinectSnake (2)\KinectSnake\KinectSnake\KinectSnake\bin\x86\Debug\Content\Images\cloudSix.xnb</Output>
-      <Time>2012-08-22T13:43:44-07:00</Time>
+      <Output>C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\KinectSnake\bin\x86\Debug\Content\Images\cloudSix.xnb</Output>
+      <Time>2012-09-19T10:21:11.3694312-07:00</Time>
     </Item>
     <Item>
       <Source>Images\cloudThree.png</Source>
@@ -169,8 +169,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ecsllab\Downloads\KinectSnake (2)\KinectSnake\KinectSnake\KinectSnake\bin\x86\Debug\Content\Images\cloudThree.xnb</Output>
-      <Time>2012-08-22T13:43:44-07:00</Time>
+      <Output>C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\KinectSnake\bin\x86\Debug\Content\Images\cloudThree.xnb</Output>
+      <Time>2012-09-19T10:21:11.3704312-07:00</Time>
     </Item>
     <Item>
       <Source>Images\cloudTwo.png</Source>
@@ -178,8 +178,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ecsllab\Downloads\KinectSnake (2)\KinectSnake\KinectSnake\KinectSnake\bin\x86\Debug\Content\Images\cloudTwo.xnb</Output>
-      <Time>2012-08-22T13:43:44-07:00</Time>
+      <Output>C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\KinectSnake\bin\x86\Debug\Content\Images\cloudTwo.xnb</Output>
+      <Time>2012-09-19T10:21:11.3724314-07:00</Time>
     </Item>
     <Item>
       <Source>Images\gridSquare.png</Source>
@@ -187,8 +187,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ecsllab\Downloads\KinectSnake (2)\KinectSnake\KinectSnake\KinectSnake\bin\x86\Debug\Content\Images\gridSquare.xnb</Output>
-      <Time>2012-08-22T13:43:44-07:00</Time>
+      <Output>C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\KinectSnake\bin\x86\Debug\Content\Images\gridSquare.xnb</Output>
+      <Time>2012-09-19T10:21:11.4574362-07:00</Time>
     </Item>
     <Item>
       <Source>Images\Normals\grass.png</Source>
@@ -196,8 +196,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ecsllab\Downloads\KinectSnake (2)\KinectSnake\KinectSnake\KinectSnake\bin\x86\Debug\Content\Images\Normals\grass.xnb</Output>
-      <Time>2012-08-22T13:43:44-07:00</Time>
+      <Output>C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\KinectSnake\bin\x86\Debug\Content\Images\Normals\grass.xnb</Output>
+      <Time>2012-09-19T10:21:11.2174225-07:00</Time>
     </Item>
     <Item>
       <Source>Images\Normals\snakeBody.png</Source>
@@ -205,8 +205,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ecsllab\Downloads\KinectSnake (2)\KinectSnake\KinectSnake\KinectSnake\bin\x86\Debug\Content\Images\Normals\snakeBody.xnb</Output>
-      <Time>2012-08-22T13:43:44-07:00</Time>
+      <Output>C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\KinectSnake\bin\x86\Debug\Content\Images\Normals\snakeBody.xnb</Output>
+      <Time>2012-09-19T10:21:11.2234228-07:00</Time>
     </Item>
     <Item>
       <Source>Images\Normals\snakeHead.png</Source>
@@ -214,8 +214,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ecsllab\Downloads\KinectSnake (2)\KinectSnake\KinectSnake\KinectSnake\bin\x86\Debug\Content\Images\Normals\snakeHead.xnb</Output>
-      <Time>2012-08-22T13:43:44-07:00</Time>
+      <Output>C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\KinectSnake\bin\x86\Debug\Content\Images\Normals\snakeHead.xnb</Output>
+      <Time>2012-09-19T10:21:11.2364236-07:00</Time>
     </Item>
     <Item>
       <Source>Images\Normals\snakeTail.png</Source>
@@ -223,8 +223,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ecsllab\Downloads\KinectSnake (2)\KinectSnake\KinectSnake\KinectSnake\bin\x86\Debug\Content\Images\Normals\snakeTail.xnb</Output>
-      <Time>2012-08-22T13:43:44-07:00</Time>
+      <Output>C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\KinectSnake\bin\x86\Debug\Content\Images\Normals\snakeTail.xnb</Output>
+      <Time>2012-09-19T10:21:11.2384237-07:00</Time>
     </Item>
     <Item>
       <Source>Images\Speculars\grass.png</Source>
@@ -232,8 +232,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ecsllab\Downloads\KinectSnake (2)\KinectSnake\KinectSnake\KinectSnake\bin\x86\Debug\Content\Images\Speculars\grass.xnb</Output>
-      <Time>2012-08-22T13:43:44-07:00</Time>
+      <Output>C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\KinectSnake\bin\x86\Debug\Content\Images\Speculars\grass.xnb</Output>
+      <Time>2012-09-19T10:21:11.2904267-07:00</Time>
     </Item>
     <Item>
       <Source>Images\Speculars\snakeHead.png</Source>
@@ -241,8 +241,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ecsllab\Downloads\KinectSnake (2)\KinectSnake\KinectSnake\KinectSnake\bin\x86\Debug\Content\Images\Speculars\snakeHead.xnb</Output>
-      <Time>2012-08-22T13:43:44-07:00</Time>
+      <Output>C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\KinectSnake\bin\x86\Debug\Content\Images\Speculars\snakeHead.xnb</Output>
+      <Time>2012-09-19T10:21:11.3064276-07:00</Time>
     </Item>
     <Item>
       <Source>Images\Speculars\snakeBody.png</Source>
@@ -250,8 +250,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ecsllab\Downloads\KinectSnake (2)\KinectSnake\KinectSnake\KinectSnake\bin\x86\Debug\Content\Images\Speculars\snakeBody.xnb</Output>
-      <Time>2012-08-22T13:43:44-07:00</Time>
+      <Output>C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\KinectSnake\bin\x86\Debug\Content\Images\Speculars\snakeBody.xnb</Output>
+      <Time>2012-09-19T10:21:11.2954269-07:00</Time>
     </Item>
     <Item>
       <Source>Images\Speculars\snakeTail.png</Source>
@@ -259,8 +259,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ecsllab\Downloads\KinectSnake (2)\KinectSnake\KinectSnake\KinectSnake\bin\x86\Debug\Content\Images\Speculars\snakeTail.xnb</Output>
-      <Time>2012-08-22T13:43:44-07:00</Time>
+      <Output>C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\KinectSnake\bin\x86\Debug\Content\Images\Speculars\snakeTail.xnb</Output>
+      <Time>2012-09-19T10:21:11.3084277-07:00</Time>
     </Item>
     <Item>
       <Source>Images\helpBack.png</Source>
@@ -268,8 +268,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ecsllab\Downloads\KinectSnake (2)\KinectSnake\KinectSnake\KinectSnake\bin\x86\Debug\Content\Images\helpBack.xnb</Output>
-      <Time>2012-08-22T13:43:44-07:00</Time>
+      <Output>C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\KinectSnake\bin\x86\Debug\Content\Images\helpBack.xnb</Output>
+      <Time>2012-09-19T10:21:11.4624365-07:00</Time>
     </Item>
     <Item>
       <Source>Images\gradient.png</Source>
@@ -277,8 +277,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ecsllab\Downloads\KinectSnake (2)\KinectSnake\KinectSnake\KinectSnake\bin\x86\Debug\Content\Images\gradient.xnb</Output>
-      <Time>2012-09-12T13:29:56.2839545-07:00</Time>
+      <Output>C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\KinectSnake\bin\x86\Debug\Content\Images\gradient.xnb</Output>
+      <Time>2012-09-19T10:21:11.4564362-07:00</Time>
     </Item>
     <Item>
       <Source>Images\points.png</Source>
@@ -286,8 +286,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ecsllab\Downloads\KinectSnake (2)\KinectSnake\KinectSnake\KinectSnake\bin\x86\Debug\Content\Images\points.xnb</Output>
-      <Time>2012-08-22T13:43:44-07:00</Time>
+      <Output>C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\KinectSnake\bin\x86\Debug\Content\Images\points.xnb</Output>
+      <Time>2012-09-19T10:21:11.5324405-07:00</Time>
     </Item>
     <Item>
       <Source>Images\quadrant.png</Source>
@@ -295,8 +295,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ecsllab\Downloads\KinectSnake (2)\KinectSnake\KinectSnake\KinectSnake\bin\x86\Debug\Content\Images\quadrant.xnb</Output>
-      <Time>2012-08-22T13:43:44-07:00</Time>
+      <Output>C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\KinectSnake\bin\x86\Debug\Content\Images\quadrant.xnb</Output>
+      <Time>2012-09-19T10:21:11.5334406-07:00</Time>
     </Item>
     <Item>
       <Source>Images\transition.png</Source>
@@ -304,8 +304,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ecsllab\Downloads\KinectSnake (2)\KinectSnake\KinectSnake\KinectSnake\bin\x86\Debug\Content\Images\transition.xnb</Output>
-      <Time>2012-08-22T13:43:44-07:00</Time>
+      <Output>C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\KinectSnake\bin\x86\Debug\Content\Images\transition.xnb</Output>
+      <Time>2012-09-19T10:21:11.6364465-07:00</Time>
     </Item>
     <Item>
       <Source>Images\ecsl.png</Source>
@@ -313,8 +313,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ecsllab\Downloads\KinectSnake (2)\KinectSnake\KinectSnake\KinectSnake\bin\x86\Debug\Content\Images\ecsl.xnb</Output>
-      <Time>2012-08-29T10:18:26-07:00</Time>
+      <Output>C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\KinectSnake\bin\x86\Debug\Content\Images\ecsl.xnb</Output>
+      <Time>2012-09-19T10:21:11.384432-07:00</Time>
     </Item>
     <Item>
       <Source>Images\blank.png</Source>
@@ -322,8 +322,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ecsllab\Downloads\KinectSnake (2)\KinectSnake\KinectSnake\KinectSnake\bin\x86\Debug\Content\Images\blank.xnb</Output>
-      <Time>2012-09-01T16:48:32-07:00</Time>
+      <Output>C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\KinectSnake\bin\x86\Debug\Content\Images\blank.xnb</Output>
+      <Time>2012-09-19T10:21:11.3364293-07:00</Time>
     </Item>
     <Item>
       <Source>Images\lock.png</Source>
@@ -331,8 +331,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ecsllab\Downloads\KinectSnake (2)\KinectSnake\KinectSnake\KinectSnake\bin\x86\Debug\Content\Images\lock.xnb</Output>
-      <Time>2012-09-01T16:48:32-07:00</Time>
+      <Output>C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\KinectSnake\bin\x86\Debug\Content\Images\lock.xnb</Output>
+      <Time>2012-09-19T10:21:11.471437-07:00</Time>
     </Item>
     <Item>
       <Source>Images\unlock.png</Source>
@@ -340,8 +340,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ecsllab\Downloads\KinectSnake (2)\KinectSnake\KinectSnake\KinectSnake\bin\x86\Debug\Content\Images\unlock.xnb</Output>
-      <Time>2012-09-01T16:48:32-07:00</Time>
+      <Output>C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\KinectSnake\bin\x86\Debug\Content\Images\unlock.xnb</Output>
+      <Time>2012-09-19T10:21:11.6374465-07:00</Time>
     </Item>
     <Item>
       <Source>Images\cancel.png</Source>
@@ -349,8 +349,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ecsllab\Downloads\KinectSnake (2)\KinectSnake\KinectSnake\KinectSnake\bin\x86\Debug\Content\Images\cancel.xnb</Output>
-      <Time>2012-09-10T14:26:14-07:00</Time>
+      <Output>C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\KinectSnake\bin\x86\Debug\Content\Images\cancel.xnb</Output>
+      <Time>2012-09-19T10:21:11.3624308-07:00</Time>
     </Item>
     <Item>
       <Source>Images\confirm.png</Source>
@@ -358,8 +358,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ecsllab\Downloads\KinectSnake (2)\KinectSnake\KinectSnake\KinectSnake\bin\x86\Debug\Content\Images\confirm.xnb</Output>
-      <Time>2012-09-10T14:21:00-07:00</Time>
+      <Output>C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\KinectSnake\bin\x86\Debug\Content\Images\confirm.xnb</Output>
+      <Time>2012-09-19T10:21:11.3754315-07:00</Time>
     </Item>
     <Item>
       <Source>Images\down.png</Source>
@@ -367,8 +367,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ecsllab\Downloads\KinectSnake (2)\KinectSnake\KinectSnake\KinectSnake\bin\x86\Debug\Content\Images\down.xnb</Output>
-      <Time>2012-09-11T15:51:20-07:00</Time>
+      <Output>C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\KinectSnake\bin\x86\Debug\Content\Images\down.xnb</Output>
+      <Time>2012-09-19T10:21:11.3794318-07:00</Time>
     </Item>
     <Item>
       <Source>Images\left.png</Source>
@@ -376,8 +376,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ecsllab\Downloads\KinectSnake (2)\KinectSnake\KinectSnake\KinectSnake\bin\x86\Debug\Content\Images\left.xnb</Output>
-      <Time>2012-09-10T13:13:40-07:00</Time>
+      <Output>C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\KinectSnake\bin\x86\Debug\Content\Images\left.xnb</Output>
+      <Time>2012-09-19T10:21:11.4654367-07:00</Time>
     </Item>
     <Item>
       <Source>Images\pause.png</Source>
@@ -385,8 +385,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ecsllab\Downloads\KinectSnake (2)\KinectSnake\KinectSnake\KinectSnake\bin\x86\Debug\Content\Images\pause.xnb</Output>
-      <Time>2012-09-10T14:08:32-07:00</Time>
+      <Output>C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\KinectSnake\bin\x86\Debug\Content\Images\pause.xnb</Output>
+      <Time>2012-09-19T10:21:11.4754372-07:00</Time>
     </Item>
     <Item>
       <Source>Images\play.png</Source>
@@ -394,8 +394,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ecsllab\Downloads\KinectSnake (2)\KinectSnake\KinectSnake\KinectSnake\bin\x86\Debug\Content\Images\play.xnb</Output>
-      <Time>2012-09-10T14:15:58-07:00</Time>
+      <Output>C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\KinectSnake\bin\x86\Debug\Content\Images\play.xnb</Output>
+      <Time>2012-09-19T10:21:11.4794375-07:00</Time>
     </Item>
     <Item>
       <Source>Images\up.png</Source>
@@ -403,8 +403,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ecsllab\Downloads\KinectSnake (2)\KinectSnake\KinectSnake\KinectSnake\bin\x86\Debug\Content\Images\up.xnb</Output>
-      <Time>2012-09-10T13:06:20-07:00</Time>
+      <Output>C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\KinectSnake\bin\x86\Debug\Content\Images\up.xnb</Output>
+      <Time>2012-09-19T10:21:11.6404467-07:00</Time>
     </Item>
     <Item>
       <Source>Images\right.png</Source>
@@ -412,8 +412,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ecsllab\Downloads\KinectSnake (2)\KinectSnake\KinectSnake\KinectSnake\bin\x86\Debug\Content\Images\right.xnb</Output>
-      <Time>2012-09-10T13:10:38-07:00</Time>
+      <Output>C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\KinectSnake\bin\x86\Debug\Content\Images\right.xnb</Output>
+      <Time>2012-09-19T10:21:11.6264459-07:00</Time>
     </Item>
     <Item>
       <Source>Fonts\snake.spritefont</Source>
@@ -421,8 +421,8 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ecsllab\Downloads\KinectSnake (2)\KinectSnake\KinectSnake\KinectSnake\bin\x86\Debug\Content\Fonts\snake.xnb</Output>
-      <Time>2012-08-22T13:43:42-07:00</Time>
+      <Output>C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\KinectSnake\bin\x86\Debug\Content\Fonts\snake.xnb</Output>
+      <Time>2012-09-19T10:21:11.1764201-07:00</Time>
     </Item>
     <Item>
       <Source>Sounds\birdChirps.wav</Source>
@@ -430,8 +430,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ecsllab\Downloads\KinectSnake (2)\KinectSnake\KinectSnake\KinectSnake\bin\x86\Debug\Content\Sounds\birdChirps.xnb</Output>
-      <Time>2012-08-22T13:43:46-07:00</Time>
+      <Output>C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\KinectSnake\bin\x86\Debug\Content\Sounds\birdChirps.xnb</Output>
+      <Time>2012-09-19T10:21:11.7984557-07:00</Time>
     </Item>
     <Item>
       <Source>Sounds\killFive.wav</Source>
@@ -439,8 +439,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ecsllab\Downloads\KinectSnake (2)\KinectSnake\KinectSnake\KinectSnake\bin\x86\Debug\Content\Sounds\killFive.xnb</Output>
-      <Time>2012-08-22T13:43:52-07:00</Time>
+      <Output>C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\KinectSnake\bin\x86\Debug\Content\Sounds\killFive.xnb</Output>
+      <Time>2012-09-19T10:21:11.8024559-07:00</Time>
     </Item>
     <Item>
       <Source>Sounds\killFour.wav</Source>
@@ -448,8 +448,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ecsllab\Downloads\KinectSnake (2)\KinectSnake\KinectSnake\KinectSnake\bin\x86\Debug\Content\Sounds\killFour.xnb</Output>
-      <Time>2012-08-22T13:43:52-07:00</Time>
+      <Output>C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\KinectSnake\bin\x86\Debug\Content\Sounds\killFour.xnb</Output>
+      <Time>2012-09-19T10:21:11.8064562-07:00</Time>
     </Item>
     <Item>
       <Source>Sounds\killOne.wav</Source>
@@ -457,8 +457,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ecsllab\Downloads\KinectSnake (2)\KinectSnake\KinectSnake\KinectSnake\bin\x86\Debug\Content\Sounds\killOne.xnb</Output>
-      <Time>2012-08-22T13:43:52-07:00</Time>
+      <Output>C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\KinectSnake\bin\x86\Debug\Content\Sounds\killOne.xnb</Output>
+      <Time>2012-09-19T10:21:11.8094563-07:00</Time>
     </Item>
     <Item>
       <Source>Sounds\killSix.wav</Source>
@@ -466,8 +466,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ecsllab\Downloads\KinectSnake (2)\KinectSnake\KinectSnake\KinectSnake\bin\x86\Debug\Content\Sounds\killSix.xnb</Output>
-      <Time>2012-08-22T13:43:52-07:00</Time>
+      <Output>C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\KinectSnake\bin\x86\Debug\Content\Sounds\killSix.xnb</Output>
+      <Time>2012-09-19T10:21:11.8134566-07:00</Time>
     </Item>
     <Item>
       <Source>Sounds\killThree.wav</Source>
@@ -475,8 +475,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ecsllab\Downloads\KinectSnake (2)\KinectSnake\KinectSnake\KinectSnake\bin\x86\Debug\Content\Sounds\killThree.xnb</Output>
-      <Time>2012-08-22T13:43:52-07:00</Time>
+      <Output>C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\KinectSnake\bin\x86\Debug\Content\Sounds\killThree.xnb</Output>
+      <Time>2012-09-19T10:21:11.8164567-07:00</Time>
     </Item>
     <Item>
       <Source>Sounds\killTwo.wav</Source>
@@ -484,8 +484,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ecsllab\Downloads\KinectSnake (2)\KinectSnake\KinectSnake\KinectSnake\bin\x86\Debug\Content\Sounds\killTwo.xnb</Output>
-      <Time>2012-08-22T13:43:52-07:00</Time>
+      <Output>C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\KinectSnake\bin\x86\Debug\Content\Sounds\killTwo.xnb</Output>
+      <Time>2012-09-19T10:21:11.820457-07:00</Time>
     </Item>
     <Item>
       <Source>Sounds\mouseNoise.wav</Source>
@@ -493,8 +493,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ecsllab\Downloads\KinectSnake (2)\KinectSnake\KinectSnake\KinectSnake\bin\x86\Debug\Content\Sounds\mouseNoise.xnb</Output>
-      <Time>2012-08-22T13:43:52-07:00</Time>
+      <Output>C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\KinectSnake\bin\x86\Debug\Content\Sounds\mouseNoise.xnb</Output>
+      <Time>2012-09-19T10:21:11.9274631-07:00</Time>
     </Item>
     <Item>
       <Source>Sounds\mouseSqueaks.wav</Source>
@@ -502,8 +502,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ecsllab\Downloads\KinectSnake (2)\KinectSnake\KinectSnake\KinectSnake\bin\x86\Debug\Content\Sounds\mouseSqueaks.xnb</Output>
-      <Time>2012-08-22T13:43:52-07:00</Time>
+      <Output>C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\KinectSnake\bin\x86\Debug\Content\Sounds\mouseSqueaks.xnb</Output>
+      <Time>2012-09-19T10:21:12.0224685-07:00</Time>
     </Item>
     <Item>
       <Source>Images\bloodSplatter.gif</Source>
@@ -511,8 +511,8 @@
       <Importer>GifAminationImporter</Importer>
       <Processor>GifAnimationProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ecsllab\Downloads\KinectSnake (2)\KinectSnake\KinectSnake\KinectSnake\bin\x86\Debug\Content\Images\bloodSplatter.xnb</Output>
-      <Time>2012-08-22T13:43:42-07:00</Time>
+      <Output>C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\KinectSnake\bin\x86\Debug\Content\Images\bloodSplatter.xnb</Output>
+      <Time>2012-09-19T10:21:11.34943-07:00</Time>
     </Item>
     <Item>
       <Source>Images\mouse.gif</Source>
@@ -520,8 +520,8 @@
       <Importer>GifAminationImporter</Importer>
       <Processor>GifAnimationProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ecsllab\Downloads\KinectSnake (2)\KinectSnake\KinectSnake\KinectSnake\bin\x86\Debug\Content\Images\mouse.xnb</Output>
-      <Time>2012-08-22T13:43:44-07:00</Time>
+      <Output>C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\KinectSnake\bin\x86\Debug\Content\Images\mouse.xnb</Output>
+      <Time>2012-09-19T10:21:11.4724371-07:00</Time>
     </Item>
     <Item>
       <Source>Images\snakeEating.gif</Source>
@@ -529,8 +529,8 @@
       <Importer>GifAminationImporter</Importer>
       <Processor>GifAnimationProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ecsllab\Downloads\KinectSnake (2)\KinectSnake\KinectSnake\KinectSnake\bin\x86\Debug\Content\Images\snakeEating.xnb</Output>
-      <Time>2012-08-22T13:43:44-07:00</Time>
+      <Output>C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\KinectSnake\bin\x86\Debug\Content\Images\snakeEating.xnb</Output>
+      <Time>2012-09-19T10:21:11.6304461-07:00</Time>
     </Item>
     <Item>
       <Source>Images\rabbit.gif</Source>
@@ -538,8 +538,8 @@
       <Importer>GifAminationImporter</Importer>
       <Processor>GifAnimationProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ecsllab\Downloads\KinectSnake (2)\KinectSnake\KinectSnake\KinectSnake\bin\x86\Debug\Content\Images\rabbit.xnb</Output>
-      <Time>2012-08-22T13:43:44-07:00</Time>
+      <Output>C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\KinectSnake\bin\x86\Debug\Content\Images\rabbit.xnb</Output>
+      <Time>2012-09-19T10:21:11.6004444-07:00</Time>
     </Item>
     <Item>
       <Source>Images\Normals\mouse.gif</Source>
@@ -547,8 +547,8 @@
       <Importer>GifAminationImporter</Importer>
       <Processor>GifAnimationProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ecsllab\Downloads\KinectSnake (2)\KinectSnake\KinectSnake\KinectSnake\bin\x86\Debug\Content\Images\Normals\mouse.xnb</Output>
-      <Time>2012-08-31T13:35:36-07:00</Time>
+      <Output>C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\KinectSnake\bin\x86\Debug\Content\Images\Normals\mouse.xnb</Output>
+      <Time>2012-09-19T10:21:11.2194226-07:00</Time>
     </Item>
     <Item>
       <Source>Images\Normals\rabbit.gif</Source>
@@ -556,8 +556,8 @@
       <Importer>GifAminationImporter</Importer>
       <Processor>GifAnimationProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ecsllab\Downloads\KinectSnake (2)\KinectSnake\KinectSnake\KinectSnake\bin\x86\Debug\Content\Images\Normals\rabbit.xnb</Output>
-      <Time>2012-08-31T13:35:36-07:00</Time>
+      <Output>C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\KinectSnake\bin\x86\Debug\Content\Images\Normals\rabbit.xnb</Output>
+      <Time>2012-09-19T10:21:11.2214227-07:00</Time>
     </Item>
     <Item>
       <Source>Images\Speculars\mouse.gif</Source>
@@ -565,8 +565,8 @@
       <Importer>GifAminationImporter</Importer>
       <Processor>GifAnimationProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ecsllab\Downloads\KinectSnake (2)\KinectSnake\KinectSnake\KinectSnake\bin\x86\Debug\Content\Images\Speculars\mouse.xnb</Output>
-      <Time>2012-08-31T13:35:40-07:00</Time>
+      <Output>C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\KinectSnake\bin\x86\Debug\Content\Images\Speculars\mouse.xnb</Output>
+      <Time>2012-09-19T10:21:11.2924268-07:00</Time>
     </Item>
     <Item>
       <Source>Images\Speculars\rabbit.gif</Source>
@@ -574,8 +574,8 @@
       <Importer>GifAminationImporter</Importer>
       <Processor>GifAnimationProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ecsllab\Downloads\KinectSnake (2)\KinectSnake\KinectSnake\KinectSnake\bin\x86\Debug\Content\Images\Speculars\rabbit.xnb</Output>
-      <Time>2012-08-31T13:35:40-07:00</Time>
+      <Output>C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\KinectSnake\bin\x86\Debug\Content\Images\Speculars\rabbit.xnb</Output>
+      <Time>2012-09-19T10:21:11.2934268-07:00</Time>
     </Item>
     <Item>
       <Source>Images\load.gif</Source>
@@ -583,8 +583,8 @@
       <Importer>GifAminationImporter</Importer>
       <Processor>GifAnimationProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ecsllab\Downloads\KinectSnake (2)\KinectSnake\KinectSnake\KinectSnake\bin\x86\Debug\Content\Images\load.xnb</Output>
-      <Time>2012-09-01T16:48:32-07:00</Time>
+      <Output>C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\KinectSnake\bin\x86\Debug\Content\Images\load.xnb</Output>
+      <Time>2012-09-19T10:21:11.4694369-07:00</Time>
     </Item>
     <Item>
       <Source>Shaders\MultiTarget.fx</Source>
@@ -592,8 +592,8 @@
       <Importer>EffectImporter</Importer>
       <Processor>EffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ecsllab\Downloads\KinectSnake (2)\KinectSnake\KinectSnake\KinectSnake\bin\x86\Debug\Content\Shaders\MultiTarget.xnb</Output>
-      <Time>2012-08-22T13:43:46-07:00</Time>
+      <Output>C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\KinectSnake\bin\x86\Debug\Content\Shaders\MultiTarget.xnb</Output>
+      <Time>2012-09-19T10:21:11.6544475-07:00</Time>
     </Item>
     <Item>
       <Source>Shaders\Transition.fx</Source>
@@ -601,8 +601,8 @@
       <Importer>EffectImporter</Importer>
       <Processor>EffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\ecsllab\Downloads\KinectSnake (2)\KinectSnake\KinectSnake\KinectSnake\bin\x86\Debug\Content\Shaders\Transition.xnb</Output>
-      <Time>2012-08-22T13:43:46-07:00</Time>
+      <Output>C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\KinectSnake\bin\x86\Debug\Content\Shaders\Transition.xnb</Output>
+      <Time>2012-09-19T10:21:11.6554475-07:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -611,10 +611,10 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\ecsllab\Downloads\KinectSnake (2)\KinectSnake\KinectSnake\KinectSnake\Content\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\ecsllab\Downloads\KinectSnake (2)\KinectSnake\KinectSnake\KinectSnake\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\ecsllab\Downloads\KinectSnake (2)\KinectSnake\KinectSnake\KinectSnake\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\ecsllab\Downloads\KinectSnake (2)\KinectSnake\KinectSnake\KinectSnake\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\KinectSnake\Content\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\KinectSnake\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\KinectSnake\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\KinectSnake\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
@@ -642,8 +642,8 @@
         <Value>2011-09-01T16:22:30-07:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Users\ecsllab\Downloads\KinectSnake (2)\KinectSnake\KinectSnake\Ecslent2D\GifAnimation.Pipeline\bin\x86\Debug\GifAnimation.Pipeline.dll</Key>
-        <Value>2012-09-12T13:30:53.6622363-07:00</Value>
+        <Key>C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\Ecslent2D\GifAnimation.Pipeline\bin\x86\Debug\GifAnimation.Pipeline.dll</Key>
+        <Value>2012-09-19T12:57:51.4166568-07:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>

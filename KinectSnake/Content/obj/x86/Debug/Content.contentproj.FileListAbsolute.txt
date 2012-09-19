@@ -9,3 +9,4 @@ C:\Users\ecsllab\Downloads\KinectSnake\KinectSnake\KinectSnake\Content\obj\x86\D
 C:\Users\ecsl\Desktop\KinectSnake\KinectSnake\KinectSnake\Content\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\Users\ecsllab\Downloads\KinectSnake (2)\KinectSnake\KinectSnake\KinectSnake\Content\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\Users\ecsl\Dropbox\KinectSnake\KinectSnake\KinectSnake\KinectSnake\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\KinectSnake\Content\obj\x86\Debug\ResolveAssemblyReference.cache

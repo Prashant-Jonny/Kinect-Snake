@@ -33,14 +33,14 @@ namespace KinectSnake.Screens
             : base("Options", Color.Goldenrod)
         {
             AddMenuEntry("Calibrate Kinect", LaunchCalibrationScreen);
+            AddMenuEntry("Change Hand Bias", LaunchHandBiasScreen);
             AddMenuEntry("Controls", LaunchControlScreen);
             AddMenuEntry("Back", LaunchMainMenu);
+
             SetBackground(new DrawableAsset<Texture2D>(Main.windowSize * 0.5f, new Vector2(0, -1), Main.windowSize, Main.sprites["menuBack"]));
             SetHandCursor(Main.sprites["handCursor"], new Vector2(200, 200));
             SetSelectionSprite(Main.animatedSprites["load"], new Vector2(400, 400));
         }
-
-
         #endregion
 
         #region Handle Input
@@ -59,7 +59,27 @@ namespace KinectSnake.Screens
             ScreenManager.AddScreen(new ControlScreen(), PlayerIndex.One);
         }
 
+        void LaunchHandBiasScreen(PlayerIndexEventArgs e)
+        {
+            if (true) //screenManager.input.Kinect.IsEnabled())
+            {
+                handCursor.Position = new Vector2(-1000, -1000);
+                Screens.HandBiasSelectionScreen welcome = new Screens.HandBiasSelectionScreen();
+                welcome.Right += (o, p) =>
+                {
+                    GestureTests.Bias = ArmBias.Right;
+                    InputState.Bias = ArmBias.Right;
+                };
 
+                welcome.Left += (o, p) =>
+                {
+                    GestureTests.Bias = ArmBias.Left;
+                    InputState.Bias = ArmBias.Left;
+                };
+                ScreenManager.AddScreen(welcome, PlayerIndex.One);
+            }
+        }
+        
         /// <summary>
         /// Event handler for when the Options menu entry is selected.
         /// </summary>

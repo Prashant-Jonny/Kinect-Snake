@@ -52,3 +52,9 @@ C:\Users\ecsl\Dropbox\KinectSnake\KinectSnake\KinectSnake\Ecslent2D\Ecslent2D\ob
 C:\Users\ecsl\Dropbox\KinectSnake\KinectSnake\KinectSnake\Ecslent2D\Ecslent2D\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\ecsl\Dropbox\KinectSnake\KinectSnake\KinectSnake\Ecslent2D\Ecslent2D\obj\x86\Debug\Ecslent2D.dll
 C:\Users\ecsl\Dropbox\KinectSnake\KinectSnake\KinectSnake\Ecslent2D\Ecslent2D\obj\x86\Debug\Ecslent2D.pdb
+C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\Ecslent2D\Ecslent2D\bin\x86\Debug\Ecslent2D.dll
+C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\Ecslent2D\Ecslent2D\bin\x86\Debug\Ecslent2D.pdb
+C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\Ecslent2D\Ecslent2D\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\Ecslent2D\Ecslent2D\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\Ecslent2D\Ecslent2D\obj\x86\Debug\Ecslent2D.dll
+C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\Ecslent2D\Ecslent2D\obj\x86\Debug\Ecslent2D.pdb

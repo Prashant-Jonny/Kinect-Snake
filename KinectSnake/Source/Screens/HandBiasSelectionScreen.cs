@@ -31,7 +31,7 @@ namespace KinectSnake.Screens
     {
         #region Fields
         protected DrawableAsset<Animation2D> selectionLoader;
-        Text help;
+        Text help, armIndicator;
         bool onRight = false, onLeft = false;
         #endregion
 
@@ -56,8 +56,8 @@ namespace KinectSnake.Screens
             AddGestureOption(" - Hold Up Right Arm to Select Right", GestureTests.RightArmUp, OnRight, Main.sprites["confirmGesture"]);
             AddGestureOption(" - Hold Up Left Arm to Left Right", GestureTests.LeftArmUp, OnLeft, Main.sprites["cancelGesture"]);
             IsPopup = true;
-            selectionLoader = new DrawableAsset<Animation2D>(Main.windowSize * 0.5f, new Vector2(0, -1), new Vector2(500,500), Main.animatedSprites["load"]);
             help = new Text("", gestureOptions[gestureOptions.Count - 1].Position + new Vector2(0, padding * 3),2.0f,Color.Goldenrod);
+            armIndicator = new Text("", Main.windowSize * 0.5f, 3.0f, Color.Lime);
         }
 
         #endregion
@@ -65,6 +65,7 @@ namespace KinectSnake.Screens
         public override void Activate(InputState input)
         {
             base.Activate(input);
+            selectionLoader = new DrawableAsset<Animation2D>(Main.windowSize * 0.5f, new Vector2(0, -1), new Vector2(500, 500), Main.content.Load<Animation2D>("Content\\Images\\load"));
             if (input.Kinect.IsEnabled())
             {
                 input.Kinect.EnableGestureTest(GestureTests.RightArmDown, OnRightDown);
@@ -83,7 +84,10 @@ namespace KinectSnake.Screens
         public override void Update(GameTime gameTime, bool otherScreenHasFocus, bool coveredByOtherScreen)
         {
             if (onRight && onLeft)
+            {
                 help.String = " Only Raise One Arm!";
+                armIndicator.String = "";
+            }
             else if (onRight || onLeft)
                 selectionLoader.ColorMap.Update(gameTime.ElapsedGameTime.Ticks);
             else
@@ -91,6 +95,7 @@ namespace KinectSnake.Screens
                 onLeft = false;
                 onRight = false;
                 selectionLoader.ColorMap.Stop();
+                armIndicator.String = "";
             }
             help.Update(gameTime);
             base.Update(gameTime, otherScreenHasFocus, coveredByOtherScreen);
@@ -109,6 +114,7 @@ namespace KinectSnake.Screens
                 ExitScreen();
             }
             onRight = true;
+            armIndicator.String = "R";
         }
 
         protected void OnRightDown(PlayerIndex playerIndex)
@@ -132,6 +138,7 @@ namespace KinectSnake.Screens
                 ExitScreen();
             }
             onLeft = true;
+            armIndicator.String = "L";
         }
 
 
@@ -140,6 +147,7 @@ namespace KinectSnake.Screens
             base.Draw();
             help.Draw(ScreenManager.spriteBatch);
             selectionLoader.Draw(ScreenManager.spriteBatch);
+            armIndicator.Draw(ScreenManager.spriteBatch);
         }
 
         #endregion

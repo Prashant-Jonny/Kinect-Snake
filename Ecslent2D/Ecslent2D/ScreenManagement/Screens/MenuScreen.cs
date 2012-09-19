@@ -216,11 +216,12 @@ namespace Ecslent2D.ScreenManagement.Screens
             title.Update(gameTime);
             for (int i = 0; i < entries.Count; i++)
                 entries[i].Update(gameTime);
-
-            if (!otherScreenHasFocus && !coveredByOtherScreen && usingKinect && entryOver != -1)
+            if (otherScreenHasFocus || coveredByOtherScreen)
+                selectionLoader.Position = handCursor.Position = new Vector2(-1000, -1000);
+            else if( usingKinect && entryOver != -1)
             {
                 selectionLoader.ColorMap.Update(gameTime.ElapsedGameTime.Ticks);
-                if (selectionLoader.ColorMap.CurrentFrame == selectionLoader.ColorMap.FrameCount - 1)
+                if (selectionLoader.ColorMap.CurrentFrame == selectionLoader.ColorMap.FrameCount - 1 && this.PosOverHover(handCursor.Position))
                 {
                     SelectAtHover(PlayerIndex.One);
                     selectionLoader.ColorMap.Play();

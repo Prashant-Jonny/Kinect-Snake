@@ -89,3 +89,10 @@ C:\Users\ecsl\Dropbox\KinectSnake\KinectSnake\KinectSnake\Ecslent2D\GifAnimation
 C:\Users\ecsl\Dropbox\KinectSnake\KinectSnake\KinectSnake\Ecslent2D\GifAnimation.Pipeline\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\Users\ecsl\Dropbox\KinectSnake\KinectSnake\KinectSnake\Ecslent2D\GifAnimation.Pipeline\obj\x86\Debug\GifAnimation.Pipeline.dll
 C:\Users\ecsl\Dropbox\KinectSnake\KinectSnake\KinectSnake\Ecslent2D\GifAnimation.Pipeline\obj\x86\Debug\GifAnimation.Pipeline.pdb
+C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\Ecslent2D\GifAnimation.Pipeline\bin\x86\Debug\GifAnimation.Pipeline.dll
+C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\Ecslent2D\GifAnimation.Pipeline\bin\x86\Debug\GifAnimation.Pipeline.pdb
+C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\Ecslent2D\GifAnimation.Pipeline\bin\x86\Debug\Ecslent2D.dll
+C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\Ecslent2D\GifAnimation.Pipeline\bin\x86\Debug\Ecslent2D.pdb
+C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\Ecslent2D\GifAnimation.Pipeline\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\Ecslent2D\GifAnimation.Pipeline\obj\x86\Debug\GifAnimation.Pipeline.dll
+C:\Users\ecsllab\Documents\Visual Studio 2010\Projects\kinect-snake\Ecslent2D\GifAnimation.Pipeline\obj\x86\Debug\GifAnimation.Pipeline.pdb
