@@ -27,7 +27,7 @@ namespace KinectSnake.Screens
     /// A popup message box screen, used to display "are you sure?"
     /// confirmation messages.
     /// </summary>
-    class HandBiasSelectionScreen : GesturePromptScreen
+    class DominantHandSelectionScreen : GesturePromptScreen
     {
         #region Fields
         protected DrawableAsset<Animation2D> selectionLoader;
@@ -49,7 +49,7 @@ namespace KinectSnake.Screens
         /// Constructor automatically includes the standard "A=ok, B=cancel"
         /// usage text prompt.
         /// </summary>
-        public HandBiasSelectionScreen()
+        public DominantHandSelectionScreen()
             : base("Select Hand Preference", Color.Red)
         {
             Vector2 iconSize = new Vector2(175, 175);

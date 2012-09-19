@@ -20,7 +20,7 @@ using Ecslent2D.Input.Kinect;
 namespace Ecslent2D.Input
 {
 
-    public enum ArmBias
+    public enum DominantSide
     {
         Right,
         Left
@@ -29,7 +29,7 @@ namespace Ecslent2D.Input
 
     public class InputState
     {
-        public static ArmBias Bias = ArmBias.Right;
+        public static DominantSide DominantSide = DominantSide.Right;
         public const int MaxInputs = 4;
 
         public readonly KeyboardState[] CurrentKeyboardStates;

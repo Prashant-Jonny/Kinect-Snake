@@ -121,7 +121,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Source\Screens\HandBiasSelectionScreen.cs" />
+    <Compile Include="Source\Screens\DominantHandSelectionScreen.cs" />
     <Compile Include="Source\Screens\GesturePromptScreen.cs" />
     <Compile Include="Source\Screens\Menu Screens\QuandrantGameSelectionScreen.cs" />
     <Compile Include="Source\Screens\Menu Screens\OptionsMenuScreen.cs" />

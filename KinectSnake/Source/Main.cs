@@ -180,17 +180,15 @@ namespace KinectSnake
             screenManager.AddScreen(new Screens.MainMenuScreen(), null);
             if (true) //screenManager.input.Kinect.IsEnabled())
             {
-                Screens.HandBiasSelectionScreen welcome = new Screens.HandBiasSelectionScreen();
+                Screens.DominantHandSelectionScreen welcome = new Screens.DominantHandSelectionScreen();
                 welcome.Right += (o, e) =>
                 {
-                    GestureTests.Bias = ArmBias.Right;
-                    InputState.Bias = ArmBias.Right;
+                    InputState.DominantSide = DominantSide.Right;
                 };
 
                 welcome.Left += (o, e) =>
                 {
-                    GestureTests.Bias = ArmBias.Left;
-                    InputState.Bias = ArmBias.Left;
+                    InputState.DominantSide = DominantSide.Left;
                 };
                 screenManager.AddScreen(welcome, null);
             }

@@ -137,7 +137,7 @@ namespace Ecslent2D.ScreenManagement.Screens
                 Vector3 rawHandPos, referencePos;
                 Vector3 hipPos = input.Kinect.GetJointPosition(JointType.HipCenter);
                 float trackedWidth = input.Kinect.GetJointPosition(JointType.ShoulderRight).X - input.Kinect.GetJointPosition(JointType.ShoulderLeft).X;
-                if (Input.InputState.Bias == ArmBias.Right)
+                if (Input.InputState.DominantSide == DominantSide.Right)
                 {
                     rawHandPos = input.Kinect.GetJointPosition(JointType.HandRight);
                     referencePos = hipPos + new Vector3(trackedWidth / 2.0f, -trackedWidth / 2.0f, 0);

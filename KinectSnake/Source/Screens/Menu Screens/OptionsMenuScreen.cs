@@ -33,7 +33,7 @@ namespace KinectSnake.Screens
             : base("Options", Color.Goldenrod)
         {
             AddMenuEntry("Calibrate Kinect", LaunchCalibrationScreen);
-            AddMenuEntry("Change Hand Bias", LaunchHandBiasScreen);
+            AddMenuEntry("Change Dominant Side", LaunchDominantHandScreen);
             AddMenuEntry("Controls", LaunchControlScreen);
             AddMenuEntry("Back", LaunchMainMenu);
 
@@ -59,22 +59,20 @@ namespace KinectSnake.Screens
             ScreenManager.AddScreen(new ControlScreen(), PlayerIndex.One);
         }
 
-        void LaunchHandBiasScreen(PlayerIndexEventArgs e)
+        void LaunchDominantHandScreen(PlayerIndexEventArgs e)
         {
             if (true) //screenManager.input.Kinect.IsEnabled())
             {
                 handCursor.Position = new Vector2(-1000, -1000);
-                Screens.HandBiasSelectionScreen welcome = new Screens.HandBiasSelectionScreen();
+                Screens.DominantHandSelectionScreen welcome = new Screens.DominantHandSelectionScreen();
                 welcome.Right += (o, p) =>
                 {
-                    GestureTests.Bias = ArmBias.Right;
-                    InputState.Bias = ArmBias.Right;
+                    InputState.DominantSide = DominantSide.Right;
                 };
 
                 welcome.Left += (o, p) =>
                 {
-                    GestureTests.Bias = ArmBias.Left;
-                    InputState.Bias = ArmBias.Left;
+                    InputState.DominantSide = DominantSide.Right;
                 };
                 ScreenManager.AddScreen(welcome, PlayerIndex.One);
             }

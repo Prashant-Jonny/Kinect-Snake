@@ -8,7 +8,6 @@ namespace KinectSnake
 {
     public static class GestureTests
     {
-        public static ArmBias Bias = ArmBias.Left;
         public static bool TouchdownTest(JointCollection currentJoints)
         {
             Vector3 rightHandPos = new Vector3(2.0f * currentJoints[JointType.HandRight].Position.X + 0.5f, -2.0f * currentJoints[JointType.HandRight].Position.Y + 0.5f, currentJoints[JointType.HandRight].Position.Z);
@@ -76,7 +75,7 @@ namespace KinectSnake
         public static bool TurnLeft(JointCollection currentJoints)
         {
             Vector3 handPos, elbowPos;
-            if (Bias == ArmBias.Left)
+            if (InputState.DominantSide == DominantSide.Left)
             {
                 handPos = new Vector3(2.0f * currentJoints[JointType.HandLeft].Position.X + 0.5f, -2.0f * currentJoints[JointType.HandLeft].Position.Y + 0.5f, currentJoints[JointType.HandLeft].Position.Z);
                 elbowPos = new Vector3(2.0f * currentJoints[JointType.ElbowLeft].Position.X + 0.5f, -2.0f * currentJoints[JointType.ElbowLeft].Position.Y + 0.5f, currentJoints[JointType.ElbowLeft].Position.Z);
@@ -95,7 +94,7 @@ namespace KinectSnake
         public static bool TurnRight(JointCollection currentJoints)
         {
             Vector3 handPos, elbowPos;
-            if (Bias == ArmBias.Left)
+            if (InputState.DominantSide == DominantSide.Left)
             {
                 handPos = new Vector3(2.0f * currentJoints[JointType.HandLeft].Position.X + 0.5f, -2.0f * currentJoints[JointType.HandLeft].Position.Y + 0.5f, currentJoints[JointType.HandLeft].Position.Z);
                 elbowPos = new Vector3(2.0f * currentJoints[JointType.ElbowLeft].Position.X + 0.5f, -2.0f * currentJoints[JointType.ElbowLeft].Position.Y + 0.5f, currentJoints[JointType.ElbowLeft].Position.Z);
@@ -114,7 +113,7 @@ namespace KinectSnake
         public static bool TurnUp(JointCollection currentJoints)
         {
             Vector3 handPos, elbowPos;
-            if (Bias == ArmBias.Left)
+            if (InputState.DominantSide == DominantSide.Left)
             {
                 handPos = new Vector3(2.0f * currentJoints[JointType.HandLeft].Position.X + 0.5f, -2.0f * currentJoints[JointType.HandLeft].Position.Y + 0.5f, currentJoints[JointType.HandLeft].Position.Z);
                 elbowPos = new Vector3(2.0f * currentJoints[JointType.ElbowLeft].Position.X + 0.5f, -2.0f * currentJoints[JointType.ElbowLeft].Position.Y + 0.5f, currentJoints[JointType.ElbowLeft].Position.Z);
@@ -133,7 +132,7 @@ namespace KinectSnake
         public static bool TurnDown(JointCollection currentJoints)
         {
             Vector3 handPos, elbowPos;
-            if (Bias == ArmBias.Left)
+            if (InputState.DominantSide == DominantSide.Left)
             {
                 handPos = new Vector3(2.0f * currentJoints[JointType.HandLeft].Position.X + 0.5f, -2.0f * currentJoints[JointType.HandLeft].Position.Y + 0.5f, currentJoints[JointType.HandLeft].Position.Z);
                 elbowPos = new Vector3(2.0f * currentJoints[JointType.ElbowLeft].Position.X + 0.5f, -2.0f * currentJoints[JointType.ElbowLeft].Position.Y + 0.5f, currentJoints[JointType.ElbowLeft].Position.Z);
@@ -152,7 +151,7 @@ namespace KinectSnake
         public static bool Pause(JointCollection currentJoints)
         {
             Vector3 handPos;
-            if (Bias == ArmBias.Right)
+            if (InputState.DominantSide == DominantSide.Right)
                 handPos = new Vector3(2.0f * currentJoints[JointType.HandLeft].Position.X + 0.5f, -2.0f * currentJoints[JointType.HandLeft].Position.Y + 0.5f, 2.0f * currentJoints[JointType.HandLeft].Position.Z + 0.5f);
             else
                 handPos = new Vector3(2.0f * currentJoints[JointType.HandRight].Position.X + 0.5f, -2.0f * currentJoints[JointType.HandRight].Position.Y + 0.5f, 2.0f * currentJoints[JointType.HandRight].Position.Z + 0.5f);
@@ -168,7 +167,7 @@ namespace KinectSnake
         public static bool Resume(JointCollection currentJoints)
         {
             Vector3 handPos;
-            if (Bias == ArmBias.Right)
+            if (InputState.DominantSide == DominantSide.Right)
                 handPos = new Vector3(2.0f * currentJoints[JointType.HandLeft].Position.X + 0.5f, -2.0f * currentJoints[JointType.HandLeft].Position.Y + 0.5f, 2.0f * currentJoints[JointType.HandLeft].Position.Z + 0.5f);
             else
                 handPos = new Vector3(2.0f * currentJoints[JointType.HandRight].Position.X + 0.5f, -2.0f * currentJoints[JointType.HandRight].Position.Y + 0.5f, 2.0f * currentJoints[JointType.HandRight].Position.Z + 0.5f);
