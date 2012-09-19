@@ -1,0 +1,1 @@
+C:\Users\ecsl\Documents\Visual Studio 2010\Projects\KinectSnake\WindowsGame1\WindowsGame1Content\obj\x86\Debug\ResolveAssemblyReference.cache
