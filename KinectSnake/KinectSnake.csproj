@@ -121,7 +121,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Source\GraphicsManagement.cs" />
     <Compile Include="Source\Screens\DominantHandSelectionScreen.cs" />
     <Compile Include="Source\Screens\GesturePromptScreen.cs" />
     <Compile Include="Source\Screens\Menu Screens\QuandrantGameSelectionScreen.cs" />
